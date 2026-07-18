@@ -10,5 +10,6 @@ elif score >= 60:
 else:
   print("Grade:F")
 
-
-
+age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)
