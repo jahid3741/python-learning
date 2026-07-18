@@ -35,3 +35,11 @@ z = x
 print(x is z)
 print(x is y)
 print(x == y)
+
+
+# membership operator
+text = "Hello World"
+
+print("H" in text)
+print("hello" in text)
+print("z" not in text)
